@@ -7,15 +7,15 @@
         <link href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css" rel="stylesheet"/>
         <style>
             body {
-                background-color: #0d0d0d;
+                background-color: url('gallery_1_poster.jpg') no-repeat center center fixed;
+                background-size: cover;
                 color: #33ff33;
-                font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, monospace;
                 height: 100vh;
                 margin: 0;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                padding: 2rem;
                 flex-direction: column;
 
             }
@@ -24,13 +24,13 @@
                 background-color: #1e1e1e;
                 width: 90%;
                 max-width: 800px;
-                height: 70vh;
+                height: 80vh;
                 padding: 1rem;
-                box-shadow: 0 0 10px #000;
-                background: #000;
-                border-radius: 10px;
-                padding-top: 2rem;
-                position: relative;
+                box-shadow: 0 0 25px rgba(0,0,0,0.6);
+                background: rgba(0, 0, 0, 0.85);
+                border-radius: 12px;
+                margin-bottom: 1rem;
+                font-family: monospace;
             }
             /*barre de controle*/
             .mac-header{
@@ -50,6 +50,25 @@
             .red{ background-color: #ff5f57;}
             .yellow{ background-color: #ffbd2e;}
             .green{ background-color: #28c840;}
+
+            .download-cv {
+                background: linear-gradient(to bottom, #f4f4f4, #d1d1d1);
+                color: #000;
+                border: 1px solid #ccc;
+                padding: 0.6rem 1.2rem;
+                text-decoration: none;
+                border-radius: 8px;
+                font-size: 15px;
+                font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+                transition: all 0.3s ease-in-out;
+            }
+
+            .download-cv:hover{
+                background: #cfcfcf;
+                color: #000;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            }
         </style>
     </head>
     <body>
